@@ -1,0 +1,16 @@
+{
+  "name": "sunswaptech",
+  "version": "1.0.0",
+  "description": "1. 通过路由询价获取最佳交易路径 2. 判断是否需要 approve（使用主网合约地址：\"TCFNp179Lg46D16zKoumd4Poa2WFFdtqYj\"） 3. 如不需要 approve 则开始构建交易 4. 执行兑换交易",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "tronweb": "^6.0.1",
+    "viem": "^2.22.14"
+  }
+}
