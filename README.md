@@ -47,7 +47,7 @@ function compressPath(path: string[]) {
 输入: `["v2", "v2", "v3", "v3", "v3"]`
 输出: 
 - versions: `["v2", "v3"]`
-- lengths: `[2, 3]`
+- lengths: `[3, 3]`
 
 ## 交易构建过程
 
